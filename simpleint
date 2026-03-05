@@ -1,0 +1,10 @@
+import math
+p=int(input("enter the value of initial amount"))
+r=float(input("enter the rate of interest"))
+n=int(input("enter the year"))
+t=int(input("enter the value for t"))
+si=(p*n*r)/100
+print"the simple intrest on principle amount",p,"is",si
+amount=p*(math.pow(1+((r*t)/100),(n*t)))
+ci=amount-p
+print"compound intrest on principle amount",p,"is",amount
