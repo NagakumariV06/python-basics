@@ -1,0 +1,18 @@
+import math
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+c=int(input("enter the value of c"))
+root=b*b-4*a*c
+if (root>0):
+   root1=((-b+math.sqrt(root))/(2*a))
+   root2=(-b-math.sqrt(root)/(2*a))
+   print"the roots are real and distinct",root1,root2
+if (root==0):
+    root1=-b/(2*a)
+    print"the roots are equal and imaginary",root
+if (root<0):
+    root1=-b/(2*a)
+    root2=math.sqrt(-root)/(2*a)
+    print"the roots are imaginary",root1,root2
+    print(root1, "+j", root2)
+    print(root1, "-j", root2)
