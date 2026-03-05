@@ -1,0 +1,9 @@
+x = int(input("enter the first number : "))
+y = int(input("enter the second number : "))
+z = int(input("enter the third number : "))
+if (x>y and x>z):
+   print"the largest among three number is",x
+elif (y>x and y>z):
+   print"the largest among three number is",y
+else:
+   print"the largest among three number is",z
