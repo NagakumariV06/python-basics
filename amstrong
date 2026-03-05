@@ -1,0 +1,12 @@
+[23bee012@mepcolinux ~]$cat ams.py
+x = int(input("enter the x value"))
+sum = 0
+temp = x
+while temp != 0:
+   z = temp % 10
+   sum = sum + (z * z * z)
+   temp = temp /10
+if (sum==x):
+   print"the given number is amstrong",sum
+else:
+   print"the given number is not amstrong"
