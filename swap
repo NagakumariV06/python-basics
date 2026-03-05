@@ -1,0 +1,9 @@
+import math
+print("program to swap m and n")
+m=int(input("enter the value for m"))
+n=int(input("enter the value for n"))
+print"the value before swapping m:",m,"n:",n
+m=m+n
+n=m-n
+m=m-n
+print"the value after swapping m:",m,"n:",n
