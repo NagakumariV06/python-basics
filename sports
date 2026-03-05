@@ -1,0 +1,10 @@
+a = raw_input("enter the temperature is warm or cold")
+b = raw_input("enter the humidity is dry or humid")
+if (a=='warm' and b=='dry'):
+   print"playing basketball"
+elif (a=='warm' and b=='humid'):
+   print"play tennis"
+elif (a=='cold' and b=='dry'):
+   print"play cricket"
+else:
+   print"play swim"
